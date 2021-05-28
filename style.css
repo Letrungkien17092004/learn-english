@@ -1,0 +1,62 @@
+* {
+    font-family: 'Limelight', cursive;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(bg.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.clearfix::after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+.heading-main-h1 {
+    color: white;
+}
+
+.select-main ul  {
+    list-style: none;
+    float:right;
+   
+}
+
+.select-main ul li {
+    float:left;
+    margin: 0px 20px;
+}
+
+.select-main ul li a {
+    text-decoration: none;
+    color:white;
+    
+}
+
+.select-main ul li a:hover , .select-main ul li a :active {
+    color:violet;
+    border-bottom: 5px solid orange;
+}
+
+.select-phim {
+    position: absolute;
+    margin-top: 150px;
+}
+.select-phim a img {
+    width: 250px;
+    float: left;
+}
+.select-phim h4 {
+    float: left;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    color:red;
+}
